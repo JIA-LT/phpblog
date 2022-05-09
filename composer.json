@@ -1,0 +1,22 @@
+{
+    "name": "jialo/phpstudy",
+    "description": "a php study project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "App\\Testing\\": "app/testing/",
+            "App\\Http\\": "app/http/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jialongtui",
+            "email": "jialongtui@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/http-foundation": "5.4.x-dev"
+    }
+}
